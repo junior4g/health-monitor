@@ -12,7 +12,7 @@
       <tr>
         <td><%= service.name %></td>
         <td><%= service.url %></td>
-        <td><%= service.is_healthy %></td>
+        <td><%= service.is_healthy ? "Ativo" : "Inativo" %></td>
       </tr>
     <% end %>
   </tbody>
