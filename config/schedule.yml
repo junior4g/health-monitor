@@ -1,0 +1,4 @@
+CheckServicesJob:
+  cron: "* * * * *"
+  class: "CheckServicesJob"
+  queue: default
